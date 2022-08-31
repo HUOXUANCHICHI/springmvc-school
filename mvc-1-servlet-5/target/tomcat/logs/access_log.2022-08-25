@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [25/Aug/2022:19:33:30 +0800] "GET /mvc-1-servlet-5/index.jsp HTTP/1.1" 200 907 http-bio-8081-exec-1 58
+0:0:0:0:0:0:0:1 - - [25/Aug/2022:19:33:30 +0800] "GET /mvc-1-servlet-5/imgs/Desert1.jpg HTTP/1.1" 200 1631571 http-bio-8081-exec-3 18

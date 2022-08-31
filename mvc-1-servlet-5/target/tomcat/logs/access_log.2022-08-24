@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:41:54 +0800] "GET /mvc-1-servlet-5/index.jsp HTTP/1.1" 200 847 http-bio-8081-exec-1 425
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:42:07 +0800] "POST /mvc-1-servlet-5/loginServlet HTTP/1.1" 200 98 http-bio-8081-exec-3 29
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:43:03 +0800] "GET /mvc-1-servlet-5/index.jsp HTTP/1.1" 200 907 http-bio-8081-exec-1 444
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:43:03 +0800] "GET /mvc-1-servlet-5/css/login.css HTTP/1.1" 200 1934 http-bio-8081-exec-3 3
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:43:03 +0800] "GET /mvc-1-servlet-5/imgs/Desert1.jpg HTTP/1.1" 404 1015 http-bio-8081-exec-4 2
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:45:48 +0800] "POST /mvc-1-servlet-5/loginServlet HTTP/1.1" 200 120 http-bio-8081-exec-6 11
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:46:02 +0800] "POST /mvc-1-servlet-5/loginServlet HTTP/1.1" 200 105 http-bio-8081-exec-8 1
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:47:53 +0800] "GET /mvc-1-servlet-5/index.jsp HTTP/1.1" 200 907 http-bio-8081-exec-1 57
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:47:53 +0800] "GET /mvc-1-servlet-5/imgs/Desert1.jpg HTTP/1.1" 404 1015 http-bio-8081-exec-3 1
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:47:57 +0800] "POST /mvc-1-servlet-5/loginServlet HTTP/1.1" 200 101 http-bio-8081-exec-4 6
+0:0:0:0:0:0:0:1 - - [24/Aug/2022:11:48:04 +0800] "POST /mvc-1-servlet-5/loginServlet HTTP/1.1" 200 111 http-bio-8081-exec-5 2
