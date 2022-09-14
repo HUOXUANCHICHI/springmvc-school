@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mvc-1-servlet-5" />
+        <module name="mvc-2-first-5School" />
+        <module name="mvc-3-buildfirstLoginRegister" />
         <module name="mvc-2-first-5" />
       </profile>
     </annotationProcessing>

@@ -7,12 +7,16 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../mvc-2-first-5" />
+    <file type="web" url="file://$PROJECT_DIR$/../mvc-2-first-5School" />
+    <file type="web" url="file://$PROJECT_DIR$/../mvc-3-buildfirstLoginRegister" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/../mvc-2-first-5/pom.xml" />
+        <option value="$PROJECT_DIR$/../mvc-2-first-5School/pom.xml" />
+        <option value="$PROJECT_DIR$/../mvc-3-buildfirstLoginRegister/pom.xml" />
       </list>
     </option>
   </component>
