@@ -9,6 +9,8 @@
 <br/>
 已注册:<a href="${pageContext.request.contextPath}/hello/verifyLogin">登录</a>
 未注册:<a href="${pageContext.request.contextPath}/hello/verifyRegister">注册</a>
+REST:<a href="${pageContext.request.contextPath}/hello/login">REST取路径地址</a>
+REST:<a href="${pageContext.request.contextPath}/hello/login2/zhangsan">REST取路径地址</a>
 <br>
 <h1>${msg}</h1>
 </body>
