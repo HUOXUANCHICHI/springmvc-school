@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:37:18 +0800] "GET /mvc-2-first-5School/jsp/login.jsp HTTP/1.1" 200 1021 http-bio-8081-exec-1 67
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:37:29 +0800] "GET /mvc-2-first-5School/jsp/bookForm.jsp HTTP/1.1" 200 1220 http-bio-8081-exec-3 280
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:37:29 +0800] "GET /mvc-2-first-5School/css/bookForm.css HTTP/1.1" 200 69 http-bio-8081-exec-4 21
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:37:33 +0800] "POST /mvc-2-first-5School/book/addBook HTTP/1.1" 200 909 http-bio-8081-exec-5 58
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:43:12 +0800] "GET /2031030176/bookForm.jsp HTTP/1.1" 404 - http-bio-8081-exec-7 0
+0:0:0:0:0:0:0:1 - - [21/Sep/2022:10:43:21 +0800] "GET /2031030176/jsp/bookForm.jsp HTTP/1.1" 404 - http-bio-8081-exec-9 0

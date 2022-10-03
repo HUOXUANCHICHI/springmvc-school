@@ -5,6 +5,7 @@
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../2031030176" />
     <file type="web" url="file://$PROJECT_DIR$" />
     <file type="web" url="file://$PROJECT_DIR$/../mvc-2-first-5" />
     <file type="web" url="file://$PROJECT_DIR$/../mvc-2-first-5School" />
@@ -17,6 +18,7 @@
         <option value="$PROJECT_DIR$/../mvc-2-first-5/pom.xml" />
         <option value="$PROJECT_DIR$/../mvc-2-first-5School/pom.xml" />
         <option value="$PROJECT_DIR$/../mvc-3-buildfirstLoginRegister/pom.xml" />
+        <option value="$PROJECT_DIR$/../2031030176/pom.xml" />
       </list>
     </option>
   </component>
