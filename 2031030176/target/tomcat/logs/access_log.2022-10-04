@@ -1,0 +1,7 @@
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:18:31:32 +0800] "GET /2031030176/jsp/login.jsp HTTP/1.1" 200 1003 http-bio-8081-exec-1 344
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:18:31:32 +0800] "GET /favicon.ico HTTP/1.1" 404 - http-bio-8081-exec-3 0
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:18:33:10 +0800] "GET /2031030176/jsp/login.jsp HTTP/1.1" 200 1003 http-bio-8081-exec-1 54
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:18:33:12 +0800] "GET /2031030176/hello/verifyLogin?username=&password= HTTP/1.1" 200 3400 http-bio-8081-exec-3 286
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:18:33:12 +0800] "GET /2031030176/css/bookForm.css HTTP/1.1" 304 - http-bio-8081-exec-4 6
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:19:43:26 +0800] "GET /2031030176/jsp/login.jsp HTTP/1.1" 200 1003 http-bio-8081-exec-1 52
+0:0:0:0:0:0:0:1 - - [04/Oct/2022:19:43:29 +0800] "GET /2031030176/hello/verifyLogin?username=&password= HTTP/1.1" 200 3400 http-bio-8081-exec-3 32
