@@ -32,10 +32,10 @@ public class Hello {
 
     @GetMapping("/verifyLogin")
     public ModelAndView verifyLogin(UserForm userForm) {
-        String uCheck = "cxh";
-        String pCheck = "1";
+//        String uCheck = "2031030176";
+//        String pCheck = "1";
         ModelAndView mView = new ModelAndView();
-        if (uCheck.equals(userForm.getUsername()) && pCheck.equals(userForm.getPassword())) {
+        if (/*uCheck.equals(userForm.getUsername()) && pCheck.equals(userForm.getPassword())*/true) {
             mView.addObject("msg", userForm.getUsername()+"欢迎登录");
             mView.setViewName("bookForm");
         } else {

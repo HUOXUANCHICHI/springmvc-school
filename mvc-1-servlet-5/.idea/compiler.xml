@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="2031030176_1" />
         <module name="mvc-1-servlet-5" />
         <module name="mvc-2-first-5School" />
         <module name="mvc-3-buildfirstLoginRegister" />
