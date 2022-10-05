@@ -18,6 +18,8 @@ public class Book {
     private String bookName;
 
     private Double price;
+    private String isbn;
+    private String writer;
     /**
      * 库存
      */

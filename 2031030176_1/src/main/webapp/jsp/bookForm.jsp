@@ -6,6 +6,9 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fm" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +19,7 @@
 <body>
 <h2>当前用户:${sessionScope.msg}</h2>
 <div class="school">
-    <form method="post" action="${pageContext.request.contextPath}/book/addBook">
+    <%--<form method="post" action="${pageContext.request.contextPath}/book/addBook">
         <table border="0" cellpadding="0" cellspacing="20">
             <tr>
                 <td><label for="bookId">图书编号:</label></td>
@@ -64,7 +67,14 @@
             </tr>
         </table>
 
-    </form>
+    </form>--%>
+
+    <fm:form modelAttribute="book" action="${pageContext.request.contextPath}/book/updateBook" method="get">
+        书名: <fm:input path="bookName"/><br>
+        isbn: <fm:input path="isbn"/><br>
+        作者: <fm:input path="writer"/><br>
+        <input type="submit" value="保存">
+    </fm:form>
 </div>
 </body>
 </html>

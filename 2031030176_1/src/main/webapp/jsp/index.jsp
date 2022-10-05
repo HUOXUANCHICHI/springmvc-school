@@ -7,10 +7,11 @@
 <body>
 <h1>欢迎来到沈工书城系统</h1>
 <br/>
-已注册:<a href="${pageContext.request.contextPath}/hello/verifyLogin">登录</a>
-未注册:<a href="${pageContext.request.contextPath}/hello/verifyRegister">注册</a>
-REST:<a href="${pageContext.request.contextPath}/hello/login">REST取路径地址</a>
-REST:<a href="${pageContext.request.contextPath}/hello/login2/zhangsan">REST取路径地址</a>
+<a href="${pageContext.request.contextPath}/hello/verifyLogin">登录</a><br>
+<a href="${pageContext.request.contextPath}/hello/verifyRegister">注册</a><br>
+<a href="${pageContext.request.contextPath}/hello/login">REST取路径地址</a><br>
+<a href="${pageContext.request.contextPath}/hello/login2/zhangsan">REST取路径地址</a><br>
+<a href="${pageContext.request.contextPath}/book/updateBook">修改图书</a>
 <br>
 <h1>${msg}</h1>
 </body>
