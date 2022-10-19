@@ -50,7 +50,7 @@
                         <option value="清华大学出版社">清华大学出版社</option>
                         <option value="人民邮电出版社">人民邮电出版社</option>
                     </select></td>
-            </tr>
+            </tr>1
             <tr>
                 <td><label for="nature">适用人群:</label></td>
                 <td><input id="nature" type="checkbox" name="nature" value="专科" checked />专科
@@ -64,7 +64,7 @@
                 <td><input type="submit" value="提交" />
                     <input type="reset" value="重置" /> <br>
                 </td>
-            </tr>
+            </tr>   の
         </table>
 
     </form>--%>
@@ -73,6 +73,21 @@
         书名: <fm:input path="bookName"/><br>
         isbn: <fm:input path="isbn"/><br>
         作者: <fm:input path="writer"/><br>
+        适用人群:<td><fm:checkbox path="group" value="专科" label="专科"/>
+                <fm:checkbox path="group" value="本科" label="本科"/>
+                <fm:checkbox path="group" value="硕士" label="硕士"/><br>
+        库存:<fm:radiobutton path="has" value="有" label="有"/>
+            <fm:radiobutton path="has" value="无" label="无"/><br>
+        出版社:<fm:select path="pub">
+            <fm:option value="1">清华大学出版社</fm:option>
+            <fm:option value="2">机械工业出版社</fm:option>
+            <fm:option value="3">人民邮电出版社</fm:option>
+            <fm:option value="4">沈阳工学院出版社</fm:option>
+        </fm:select><br>
+<%--        出版社:<fm:select path="pub" items="${hashMap}"/><br>--%>
+        图书类型:<fm:select path="type">
+            <fm:options items="${bookTypeList}" itemLabel="typeName" itemValue="typeId"/>
+        </fm:select><br>
         <input type="submit" value="保存">
     </fm:form>
 </div>

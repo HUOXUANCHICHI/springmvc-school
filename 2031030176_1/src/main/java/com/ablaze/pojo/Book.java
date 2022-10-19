@@ -1,8 +1,8 @@
 package com.ablaze.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
+
+import java.util.List;
 
 /**
  * @Author: ablaze
@@ -11,6 +11,8 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Book {
 
     private Integer bookId;
@@ -18,7 +20,9 @@ public class Book {
     private String bookName;
 
     private Double price;
+
     private String isbn;
+
     private String writer;
     /**
      * 库存
@@ -28,11 +32,24 @@ public class Book {
     /**
      * 出版社
      */
-    private String pubName;
+    private String pub;
 
     /**
      * 适用人群
      */
     private String nature;
+    /**
+     * 适用人群 school
+     */
+    private List<String> group;
+    /**
+     * 库存 school
+     */
+    private String has;
+
+    /**
+     * 图书类型
+     */
+    private int type;
 
 }

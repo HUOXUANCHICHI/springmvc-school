@@ -4,16 +4,16 @@ import lombok.*;
 
 /**
  * @Author: ablaze
- * @Date: 2022/09/19/9:30
+ * @Date: 2022/10/12/10:58
  */
 @Getter
 @Setter
 @ToString
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserForm {
+public class BookType {
 
-    private String username;
+    private int typeId;
 
-    private String password;
+    private String typeName;
 }

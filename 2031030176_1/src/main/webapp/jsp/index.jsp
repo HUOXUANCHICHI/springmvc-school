@@ -11,7 +11,8 @@
 <a href="${pageContext.request.contextPath}/hello/verifyRegister">注册</a><br>
 <a href="${pageContext.request.contextPath}/hello/login">REST取路径地址</a><br>
 <a href="${pageContext.request.contextPath}/hello/login2/zhangsan">REST取路径地址</a><br>
-<a href="${pageContext.request.contextPath}/book/updateBook">修改图书</a>
+<a href="${pageContext.request.contextPath}/book/updateBook">修改图书</a><br>
+<a href="${pageContext.request.contextPath}/user/updateUser">修改用户</a>
 <br>
 <h1>${msg}</h1>
 </body>

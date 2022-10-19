@@ -1,8 +1,6 @@
 package com.ablaze.pojo;
 
-import lombok.Getter;
-import lombok.Setter;
-import lombok.ToString;
+import lombok.*;
 
 /**
  * @Author: ablaze
@@ -11,6 +9,8 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
+@NoArgsConstructor
+@AllArgsConstructor
 public class Book {
 
     private Integer bookId;

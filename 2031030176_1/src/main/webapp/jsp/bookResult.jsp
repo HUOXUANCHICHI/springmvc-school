@@ -42,7 +42,7 @@
             </tr>
             <tr>
                 <td>适用人群:</td>
-                <td>${book.nature}<br></td>
+                <td>${book.group}<br></td>
             </tr>
         </table>
 

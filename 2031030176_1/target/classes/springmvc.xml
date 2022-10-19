@@ -14,7 +14,7 @@
     <!--    <bean name="/login" class="com.ablaze.controller.LoginController"></bean>
         <bean name="/register" class="com.ablaze.controller.RegisterController"></bean>-->
     <context:component-scan base-package="com.ablaze.controller"/>
-    <mvc:annotation-driven></mvc:annotation-driven>
+    <mvc:annotation-driven/>
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix" value="/jsp/"/>
         <property name="suffix" value=".jsp"/>

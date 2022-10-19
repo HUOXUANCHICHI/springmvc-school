@@ -1,4 +1,8 @@
 com\ablaze\controller\BookController.class
-com\ablaze\controller\Hello.class
 com\ablaze\pojo\Book.class
+com\ablaze\pojo\DegreeType.class
+com\ablaze\controller\UserController.class
+com\ablaze\pojo\User.class
+com\ablaze\pojo\BookType.class
+com\ablaze\controller\Hello.class
 com\ablaze\pojo\UserForm.class

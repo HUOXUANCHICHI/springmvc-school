@@ -19,9 +19,9 @@ public class Hello {
     public ModelAndView verifyLogin(UserForm userForm) {
         String uCheck = "2031030176";
         ModelAndView mView = new ModelAndView();
-        if (uCheck.equals(userForm.getUsername())) {
+        if (uCheck.equals(userForm.getUsername())/*true*/) {
             mView.addObject("msg", userForm.getUsername()+"欢迎登录");
-            mView.setViewName("bookForm");
+            mView.setViewName("redirect:/book/updateBook");
         } else {
             mView.addObject("msg", "用户或密码错误");
             mView.setViewName("login");
